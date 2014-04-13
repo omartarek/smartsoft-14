@@ -25,7 +25,9 @@ gem "handles_sortable_columns"
 
 
 
-
+gem "geocoder", '1.1.9'
+gem "gmaps4rails" , '2.1.2'
+gem "gon" ,'5.0.4'
 
 
 

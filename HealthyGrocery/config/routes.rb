@@ -1,5 +1,8 @@
 HealthyGrocery::Application.routes.draw do
 
+  #resources :ship_orders
+  get "ship_orders/gen"
+
   resources :sessions , :only => [:new, :create, :destroy]
   match 'login' => 'sessions#new'
   match 'logout' => 'sessions#destroy'
